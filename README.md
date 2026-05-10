@@ -1,4 +1,47 @@
-# Project: Analytical Studies in Equity Research
+# Analytical Studies in Equity Research
+
+## Overview
+
+This repository contains a structured system for fundamental equity research.
+
+It is designed to convert publicly available financial data into standardized analytical studies of publicly traded companies.
+
+## Principles
+
+- Truth over speculation
+- Structured reasoning over narrative
+- Evidence-based interpretation
+- Explicit uncertainty where applicable
+- Reproducibility of all analysis
+
+## Output Format
+
+Each study follows a consistent structure:
+
+1. Company Overview
+2. Financial Analysis
+3. Earnings Quality
+4. Management & Capital Allocation
+5. Industry Positioning
+6. Risks
+7. Catalysts
+8. Valuation Context
+9. Bull Case
+10. Bear Case
+11. Key Unknowns
+12. Confidence Assessment
+
+## System Design
+
+- Data ingestion via public financial APIs (initially Yahoo Finance)
+- Structured feature extraction in Python
+- Rule-based interpretation layer (V1)
+- Research report generation in Markdown
+- Future expansion: filings, transcripts, and retrieval-based AI analysis
+
+## Current Stage
+
+V1: Basic financial data ingestion + structured report generation# Project: Analytical Studies in Equity Research
 A reproducible pipeline that converts raw financial data into structured, evidence-based equity research reports.
 
 Goal:
