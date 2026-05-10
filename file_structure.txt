@@ -1,0 +1,22 @@
+analytical-studies-equity-research/
+
+├── studies/
+│   ├── outputs/
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│
+├── notebooks/
+│
+├── src/
+│   ├── ingestion/
+│   ├── analysis/
+│   ├── reporting/
+│
+├── prompts/
+│
+├── config/
+│
+├── README.md
+├── requirements.txt
